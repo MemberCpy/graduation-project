@@ -1,24 +1,19 @@
-# web
+## 超市管理系统毕业论文
 
-## Project setup
-```
-yarn install
-```
+### web
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+-  项目安装
 
-### Compiles and minifies for production
-```
-yarn build
-```
+  ```js
+  yarn install or npm install
+  ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+- 项目运行
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  ```js
+  yarn run dev
+  ```
+
+##### 选题意义
+
+- 随着我国超市的不断发展，时间和效率、信息的存储和处理就显得迫切需要，要适应市场竞争，就需要有效的处理方式和管理方法，因此加快超市的信息化进程是必不可少的。在开发过程中，我针对本地区有名的大型连锁超市的管理特点和技术人员的实际水平，采用了简单易用的操作环境，在系统设计过程中，我们尽量采用的是易懂易懂的人机页面，一切以用户为主，使得用户可以在短期内完全掌握。把系统的主要目的放在首位，力求数据的完整和处理的正确性，然后在这个基础上优化代码，加速系统的运行和减少对系统的资源的占用。
