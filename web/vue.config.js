@@ -9,7 +9,7 @@ module.exports = {
   outputDir: 'dist',
   productionSourceMap: false,
   lintOnSave: true,
-  chinaWebpack: (config) => {
+  chainWebpack: (config) => {
     config.resolve.alias
       .set('@', resolve('src'))
   },

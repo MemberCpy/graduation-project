@@ -4,11 +4,17 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
+
+import customerRouter from './modules/customer'
 const routes = [
   {
     path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/crm',
+    component: () => import('@/views/layout/customerLayout')
   },
   {
     path: '/about',
@@ -21,7 +27,13 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  customerRouter
 })
 
+
 export default router
+
+export const asyncRouterMap = [
+  customerRouter
+]

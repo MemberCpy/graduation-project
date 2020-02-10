@@ -28,8 +28,13 @@ import '@/permission'
 import VueBus from 'vue-bus'
 Vue.use(VueBus)
 
-// 引入全局常用组件(展无)
-
+// 引入全局常用组件
+import {
+  Flexbox,
+  FlexboxItem
+} from '@/components/flexbox'
+Vue.component('flexbox', Flexbox)
+Vue.component('flexboxItem', FlexboxItem)
 
 // 懒加载图片
 import VueLazyload from 'vue-lazyload'
